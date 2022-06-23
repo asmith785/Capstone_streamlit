@@ -93,7 +93,7 @@ with dataset_location:
 
 #imported software engineer job dataset
 with software_location:
-    se_jobs_data = pd.read_csv("/Users/antonesmtih/Desktop/streamlit/us-software-engineer-jobs-zenrows.csv")
+    se_jobs_data = pd.read_csv("us-software-engineer-jobs-zenrows.csv")
     # st.write(se_jobs_data.head())
     left_column, right_column = st.columns(2)
     with left_column:
