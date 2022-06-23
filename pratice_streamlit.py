@@ -42,7 +42,7 @@ with intro:
 
 
     with right_column:
-        image2 = Image.open('/Users/antonesmtih/Desktop/streamlit/Magnifying-glass-by-Iconika-580x364.jpeg')
+        image2 = Image.open('Magnifying-glass-by-Iconika-580x364.jpeg')
         st.image(image2)
 
 with dataset_location:
@@ -106,7 +106,7 @@ with software_location:
 - Virginia.""")
 
     with right_column:
-        image3 = Image.open('/Users/antonesmtih/Desktop/streamlit/software_location_graph.png')
+        image3 = Image.open('software_location_graph.png')
         st.image(image3)
     st.write("---")
 
@@ -124,7 +124,7 @@ with cyber_location:
  Something interesting of note is that there are more cybersecurity jobs in NJ than there are in NY, contrary to the sheer amount of tech job postings in NYC.""")
 
     with right_column:
-        image4 = Image.open('/Users/antonesmtih/Desktop/streamlit/cyber_location_graph.png')
+        image4 = Image.open('cyber_location_graph.png')
         st.image(image4)
     st.write("---")
 
@@ -142,7 +142,7 @@ with se_skills:
         """)
 
     with right_column:
-        image6 = Image.open('/Users/antonesmtih/Desktop/streamlit/software_skills_graph.png')
+        image6 = Image.open('software_skills_graph.png')
         st.image(image6)
     st.write("---")
 
@@ -159,7 +159,7 @@ with cyber_skills:
         """)
 
     with right_column:
-        image7 = Image.open('/Users/antonesmtih/Desktop/streamlit/cyber_skills_graph.png')
+        image7 = Image.open('cyber_skills_graph.png')
         st.image(image7)
     st.write("---")
 
@@ -176,7 +176,7 @@ with data_skills:
         """)
 
     with right_column:
-        image5 = Image.open('/Users/antonesmtih/Desktop/streamlit/data_skills_graph.png')
+        image5 = Image.open('data_skills_graph.png')
         st.image(image5)
     st.write("---")
 
