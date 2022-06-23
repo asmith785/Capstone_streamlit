@@ -21,8 +21,8 @@ conclusion = st.container()
 with header:
     st.title("Analysis For Alumni's Pursuing Job Opportunities In Software Engineer, Data Analysis & Cybersecurity.")
     st.subheader("Antone Smith, Muees Adewunmi, Dylan Picart")
-    image = Image.open('/Users/antonesmtih/Desktop/streamlit/job-tips.jpeg')
-    st.image(image)
+    #image = Image.open('/Users/antonesmtih/Desktop/streamlit/job-tips.jpeg')
+    #st.image(image)
     st.write("---")
     st.write("Our target demographic aims at students that have recently graduated from a bootcamp and are unsure of how to keep up to date with technology. It is crucial to continuously keep up with technology as the world continues to change and technology continues to advance. Relying on bootcamps alone won’t get you to the career discipline you are looking to go to. There are a variety of news related sources on the internet but one can become overwhelmed with the mass amount of news at their fingertips and some don’t know what exactly to search for. Our analysis seeks to provide Alumni with info of what skills are predominantly asked for on job application descriptions to give the user a better idea on how to up-skill.")
     
