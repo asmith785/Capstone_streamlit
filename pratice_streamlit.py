@@ -51,7 +51,7 @@ with dataset_location:
 
 #imported data analysis job dataset
     
-    dataset_url = "/Users/antonesmtih/Desktop/streamlit/DataAnalyst.csv"
+    dataset_url = "DataAnalyst.csv"
 
 # read csv from a URL
     @st.experimental_memo
